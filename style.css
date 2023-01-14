@@ -1,0 +1,267 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #F5F8FF;
+    --secondary-color: #1F2B40;
+    --success-color: #000;
+    --danger-color: #E02C6D;
+    --worning-color: #FFC014;
+    --white-color: #fff;
+    --info-color: #787885;
+    --muted-color: #3A3A3A;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/* -------------- */
+/* Navbar section */
+/* -------------- */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 25px 10px;
+    position: relative;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--success-color);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    color: var(--success-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* -------------- */
+/* Hero section */
+/* -------------- */
+.main-hero-section {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-text-box {
+    width: 50%;
+}
+
+.hero-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--muted-color);
+}
+
+.title-discription {
+    font-size: 16px;
+    font-weight: 600;
+    width: 505px;
+    margin-top: -40px;
+    line-height: 27px;
+}
+
+.btn {
+    width: 196px;
+    height: 44px;
+    background-color: var(--danger-color);
+    border-radius: 45px;
+    border: 0;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-img-box {
+    width: 50%;
+}
+
+.hero-img-box img {
+    display: flex;
+    float: right;
+}
+
+/* -------------- */
+/* Band section */
+/* -------------- */
+.band {
+    width: 1110px;
+    height: 110px;
+    margin: auto;
+}
+
+.band img {
+    padding: 30px;
+}
+
+/* -------------- */
+/* Popular Collection section */
+/* -------------- */
+.Collection {
+    width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    grid-row-gap: 20px;
+}
+
+.Collection-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--success-color);
+}
+
+.item {
+    height: 446px;
+    width: 329px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: var(--white-color);
+}
+
+.item .img {
+    width: 325px;
+    height: 256px;
+    background-color: #E02C6D;
+    margin: auto;
+}
+
+.item h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.item h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+    gap: 20px;
+}
+
+.icon-box .icon {
+    height: 11px;
+    color: var(--worning-color);
+}
+
+.icon-box .reting {
+    margin-top: 35px;
+}
+
+.item p {
+    width: 196px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -5px;
+    color: var(--info-color);
+}
+
+.seemore {
+    position: relative;
+    left: 943px;
+    color: var(--danger-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* -------------- */
+/*  one place section */
+/* -------------- */
+.one-place {
+    display: flex;
+}
+
+.one-place-img {
+    width: 40%;
+}
+
+.one-place-iimgmg {
+    width: 404px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.one-place-text {
+    width: 60%;
+}
+
+.one-place-text h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--success-color);
+}
+
+.one-place-text p {
+    width: 501px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--info-color);
+    margin-top: -20px;
+}
+
+.one-place-text .btn {
+    border-radius: 0;
+}
+
+/* -------------- */
+/*  Footer section */
+/* -------------- */
+footer {
+    height: 150px;
+    background-color: var(--secondary-color);
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-info h3 {
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+.footer-info p {
+    color: var(--white-color);
+    margin-top: -10px;
+}
+
+.footer-info a {
+    font-size: 20px;
+    color: var(--white-color);
+    margin: 7px;
+}
